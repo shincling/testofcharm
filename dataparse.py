@@ -3,8 +3,8 @@ import random
 import re
 
 namedict=['张三','李四','王五','赵六','田七','许八','钟九','周杰伦','解晓东','蔡依林']
-f=open(r'/home/shin/DeepLearning/数据集/qa24_plane_little_train.txt','r')
-fw=open(r'/home/shin/DeepLearning/数据集/qa24_plane_little_train_rand.txt','w')
+f=open(r'/home/shin/DeepLearning/MemoryNetwork/QA/planeplane_shin','r')
+fw=open(r'/home/shin/DeepLearning/MemoryNetwork/QA/planeplane_shin_rand_1000_train.txt','w')
 content=f.read()
 #print content
 ac=content.split('1 您好')
