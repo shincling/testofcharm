@@ -6,3 +6,5 @@ cont1=f_test.read()
 cont2=f_train.read()
 cont1=re.findall(r'[0-9]* 。',cont1)
 print cont1
+
+'fffff'
